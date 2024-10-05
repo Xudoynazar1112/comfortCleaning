@@ -1,0 +1,75 @@
+{
+    "asosiy": "Asosiy",
+    "biz": "Nega biz",
+    "xizmatlar": "Xizmatlar",
+    "fikrlar": "Fikrlar",
+    "savollar": "Savollar",
+    "o'zbekcha": "O'zbekcha",
+    "ruscha": "Ruscha",
+    "AppjsxH1": "Gilam yuvish xizmati",
+    "AppjsxP": "Biz Toshkentda 10 yildan beri professional gilam yuvish ishlarini olib boramiz, shuning uchun gilamlarni qanday toza va sifatli yuvishni bilamiz.",
+    "boglanish": "Bog'lanish",
+    "location": "O'zbekiston, Toshkent shahri",
+    "question1": {
+        "question": "Gilamlarni yuvish qancha vaqt oladi?",
+        "answer": "Gilamlarni yuvish jarayoni odatda 3-5 kun davom etadi. Bu vaqt ichida gilamlar chuqur tozalanadi, quritiladi va yetkazib berish tayyorlanadi."
+    },
+    "question2": {
+        "question": "Sizning xizmatlaringiz narxi qanday aniqlanadi?",
+        "answer": "Narxlar gilamning o‘lchami, materiali va tozalash darajasiga qarab belgilanadi. Biz ko'pincha kvadrat metrga asoslangan narxlarni taqdim etamiz. Maxsus buyurtmalar uchun esa narxni aniqlash uchun qo‘shimcha ma’lumot talab etiladi."
+    },
+    "question3": {
+        "question": "Gilamlarimga zarar yetkazilmaydimi?",
+        "answer": "Yo‘q, bizning tajribali mutaxassislarimiz va zamonaviy uskunalarimiz gilamlarga zarar yetkazmaslikka kafolat beradi. Biz har bir gilam turiga mos maxsus tozalash usullarini qo‘llaymiz."
+    },
+    "question4": {
+        "question": "Yuvish jarayonida qanday vositalardan foydalanasiz?",
+        "answer": "Biz ekologik toza va insonlar hamda hayvonlar uchun xavfsiz bo‘lgan tozalash vositalaridan foydalanamiz. Ushbu vositalar gilamlarni chuqur tozalaydi va zarar yetkazmaydi."
+    },
+    "question5": {
+        "question": "Gilamlarni olib ketish va yetkazib berish xizmati bormi?",
+        "answer": "Ha, biz gilamlaringizni o‘zingiz uchun qulay bo‘lgan vaqtda bepul olib ketamiz va yetkazib beramiz. Siz faqat yuvish xizmatiga to‘lov qilasiz."
+    },
+    "question6": {
+        "question": "Har qanday gilamni yuvish mumkinmi?",
+        "answer": "Biz ko‘plab gilam turlarini yuvamiz, jumladan, jun, ipak va sintetik gilamlar. Ammo juda nozik yoki qadimiy gilamlar uchun biz maxsus tozalash usullarini qo‘llaymiz yoki sizga alternativ tozalash usullarini tavsiya qilamiz."
+    },
+    "malumot": "Ma'lumotlaringizni qoldiring",
+    "yuborish": "Yuborish",
+    "xizmat": "Xizmat turlari",
+    "erishayotganNatija": "Qanday natijaga erishayotganimizni ko`ring",
+    "ishLavha": "Ish joyidan lavhalar",
+    "qandayIshlaydi": "Ish jarayoni qanday ishlaydi",
+    "buyurtmaBering": "Buyurtma bering",
+    "obrodir": "Eng yaxshi kafolat bu biz qadrlaydigan obro'dir! Bizga ishoning!",
+    "ishJarayoni": "Ish jarayonlari",
+    "negaBiz": "Nima uchun bizni tanlashadi?",
+    "chegirmaTitle": "30 m² va undan katta maydonlar uchun 10% chegirma!",
+    "chegirmaBody": "Bizning xizmatimizdan foydalanib, 30 m² va undan katta maydonlar uchun 10% chegirma oling! Bugun yuvdirish jarayonini osonlashtiring va toza muhitda hayotingizni yanada qulayroq qiling.",
+    "call": "Qo'ng'iroq qiling",
+    "callBody": "Qo'ng'iroq qiling yoki veb-saytda so'rov qoldiring (tafsilotlarni aniqlaymiz va narxini aytamiz)",
+    "buyurtma": "Buyurtma",
+    "buyurtmaBody": "Uyda gilamni yuvish yoki fabrikada yuvib kelish uchun buyurtma bering",
+    "shartnoma": "Shartnoma",
+    "shartnomaBody": "Biz siz bilan rasmiy shartnoma tuzish ishni boshlaymiz",
+    "olibKetish": "Gilamlarni olib ketish",
+    "olibKetishBody": "Gilamlaringizni bepulga olib ketamiz",
+    "tozalash": "Tozalash",
+    "tozalashBody": "Biz gilamlarni Germaniya uskunalarida tozalaymiz va yuvamiz",
+    "quritish": "Quritish",
+    "quritishBody": "Gilamlarni deformatsiyasiz va hidsiz quritamiz",
+    "yetkazibBerish": "Yetkazib berish",
+    "yetkazibBerishBody": "Sizga qulay vaqtda gilamlaringizni olib kelamiz",
+    "ismingiz": "Ismingiz",
+    "faqatGilam": "Biz faqat gilam yuvmaymiz",
+    "barchaMebel": "Barcha turdagi mebellar",
+    "barchaParda": "Barcha turdagi pardalar",
+    "barchaGilam": "Barcha turdagi gilamlar",
+    "barchaAdyol": "Barcha turdagi adyollar",
+    "tezYuv": "Tezkor Gilam Yuvish Xizmati",
+    "tezYuvBody": "ARIZALAR KUNIGA 24 SOAT QABUL QILINADI. AGAR SHOSHILINCH GILAM YUVISH KERAK BO‘LSA, BIZ DARHOL YETIB BORISHIMIZ MUMKIN. SHUNGA QARAMAY, SIFAT MUKAMMAL BO‘LIB QOLADI.",
+    "mutaxasis": "Yetuk Mutaxasislarimiz", 
+    "mutaxasisBody": "BIZNING XODIMLARIMIZ HAR BIR JARAYONNI PUXTA AMALGA OSHIRADI: GILAMLARNI QABUL QILISH, YUVISHGA TAYYORLASH, TO‘LIQ TOZALASH, QURITISH VA YAKUNIY NAZORAT.",
+    "qulay": "Sizga Maqul Va Qulay",
+    "qulayBody": "SIZ O‘ZINGIZ UCHUN MAQUL VA QULAY VAQTNI TANLANG VA GILAMLARINGIZNI YUVISH UCHUN BIZGA MUROJAAT QILING. SIZGA KAFOLATLANGAN VA SAMARALI NATIJANI TA’MINLAYMIZ."
+}
