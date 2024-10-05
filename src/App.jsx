@@ -5,7 +5,6 @@ import Footer from "./Footer";
 import Questions from "./Questions";
 import Serviceses from "./Serviceses";
 import WhyUs from "./WhyUs";
-import Loader from "./Loader";
 
 
 function App() {

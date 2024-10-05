@@ -134,11 +134,11 @@ const Serviceses = () => {
           title={t("yetkazibBerish")}
           desc={t("yetkazibBerishBody")}
         />
-        <div>
-          <button className="bg-[#04a2ba] text-white py-4 px-10 text-3xl">
+        <div className="mt-4">
+          <a href="#contact" className="bg-[#04a2ba] text-white py-4 px-10 text-3xl rounded-xl hover:text-white">
             {t("buyurtmaBering")}
-          </button>
-          <p className="text-[#9e9e9e] text-xl pt-3">
+          </a>
+          <p className="text-[#9e9e9e] text-xl pt-3 mt-3">
             {t("obrodir")}
           </p>
         </div>
