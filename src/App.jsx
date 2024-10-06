@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import FeedBacks from "./FeedBacks";
 import MainPage from "./MainPage";
 import Navbar from "./Navbar";
@@ -5,21 +6,29 @@ import Footer from "./Footer";
 import Questions from "./Questions";
 import Serviceses from "./Serviceses";
 import WhyUs from "./WhyUs";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1200,
+      // offset: 50,
+      easing: "ease-in-out",
+    });
+  }, []);
   return (
-    <div className="flex flex-col min-h-screen w-full px-[20px]">
-    <Navbar />
-    <main className="flex-[100%]  flex flex-col mt-32">
-      <MainPage />
-      <WhyUs />
-      <Serviceses />
-      <FeedBacks />
-      <Questions />
-    </main>
-    <Footer />
-  </div>
+    <div className="flex flex-col min-h-screen w-full">
+      <Navbar />
+      <main className="flex-[100%]  flex flex-col mt-32">
+        <MainPage />
+        <WhyUs />
+        <Serviceses />
+        <FeedBacks />
+        <Questions />
+      </main>
+      <Footer />
+    </div>
   );
 }
 

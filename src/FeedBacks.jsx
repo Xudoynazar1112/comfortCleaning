@@ -22,11 +22,11 @@ const FeedBack = ({ photo, name, nick, text }) => {
 
 const FeedBacks = () => {
   return (
-    <div id="feedback">
-      <h1 className="animate__animated animate__flipInX mb-10 mt-32 text-[45px] font-bold text-[#7b7b7b]">
+    <div id="feedback" className="pl-10">
+      <h1 data-aos="fade-right" className="mb-10 mt-32 text-[45px] font-bold text-[#7b7b7b]">
         Mijozlarning fikrlari
       </h1>
-      <div className="flex gap-1">
+      <div className="flex flex-col md:flex md:flex-row gap-1 overflow-hidden">
         <FeedBack photo={'/mijoz1.jpg'} name="Nigora" nick="@nigora_dostva" text="Gilamlarimni yuvishga topshirgan edim va natijadan juda mamnunman. Gilamlar yangidek toza bo‘lib qaytdi! Xizmatlar tez va sifatli. Rahmat!" />
         <FeedBack photo={'/mijoz2.webp'} name="Muxlisa" nick="@prsens" text="Gilamlarim juda katta edi va ularni tozalashda qiyinchiliklar bor edi. Ammo bu xizmatdan foydalanganimdan keyin ularning tozaligidan juda xursand bo‘ldim. Ishingizni qoyilmaqom qilib bajarasizlar!" />
         <FeedBack photo={'/mijoz3.jpg'} name="Lobar" nick="@hyot" text="Bir necha joydan dog‘lar bor edi, o‘ylab yurar edim bu dog‘larni hech qanday usul bilan yo‘qotib bo‘lmasa kerak deb. Lekin, bu xizmat meni ajablantirdi – dog‘lar butunlay ketdi! Tavsiya qilaman." />

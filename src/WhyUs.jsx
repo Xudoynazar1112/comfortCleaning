@@ -18,12 +18,12 @@ const Superiority = ({ icon, title, description }) => {
 const WhyUs = () => {
   const {t, i18n} = useTranslation();
   return (
-    <div className="mt-32" id="us">
-      <h1 className="animate__animated animate__flipInX ">
+    <div className="mt-32 px-10" id="us">
+      <h1 data-aos="fade-down">
         {t("negaBiz")}
       </h1>
       <hr className="h-[2px] bg-[#CCC] my-10" />
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-1 gap-10 md:grid md:grid-cols-3" data-aos="fade-right">
         <Superiority
           icon={lightning}
           title={t('tezYuv')}
@@ -46,16 +46,16 @@ const WhyUs = () => {
           }
         />
       </div>
-      <div className="bg-gilamFon bg-cover bg-center h-screen mt-20 rounded-3xl relative">
-        <h2 className="absolute text-white text-[40px] w-1/2 top-12 left-12 font-unbounded font-bold">
+      <div className="bg-gilamFon bg-cover bg-center h-screen mt-20 rounded-3xl md:relative">
+        <h2 data-aos="fade-right" className="p-5 text-4xl md:absolute text-white md:text-[40px] md:w-1/2 md:top-12 md:left-12 font-unbounded font-bold">
           {t("chegirmaTitle")}
         </h2>
-        <p className="absolute left-12 top-60 text-white w-1/4">
+        <p data-aos="fade-left" className="px-5 md:absolute md:left-12 md:top-60 text-white md:w-1/4">
         {t("chegirmaBody")}
         </p>
-        <h2 className="absolute text-white text-[40px] w-1/2 bottom-[40%] left-12 font-unbounded font-bold">998-95-000-30-80</h2>
-        <h2 className="absolute text-white text-[40px] w-1/2 bottom-[33%] left-12 font-unbounded font-bold">998-99-060-30-80</h2>
-        <div className="absolute left-12 bottom-28"><Button /></div>
+        <a data-aos="fade-right" href="tel:+998950003080" className="p-5 text-4xl inline-block md:absolute text-white md:text-[40px] md:w-1/2 md:bottom-[40%] md:left-12 font-unbounded font-bold">998-95-000-30-80</a>
+        <a data-aos="fade-right" href="tel:+998990603080" className="p-5 text-4xl inline-block md:absolute text-white md:text-[40px] md:w-1/2 md:bottom-[33%] md:left-12 font-unbounded font-bold">998-99-060-30-80</a>
+        <div data-aos="fade-up" className="p-5 mt-10 md:absolute md:left-12 md:bottom-28"><Button /></div>
       </div>
     </div>
   );

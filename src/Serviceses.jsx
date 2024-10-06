@@ -11,13 +11,13 @@ import { useTranslation } from "react-i18next";
 
 const Service = ({ img, name }) => {
   return (
-    <div className="bg-gray-100 rounded-xl w-[430px] h-[450px] mb-10 items-center">
+    <div className="bg-gray-100 rounded-xl w-[350px] h-[410px] md:w-[430px] md:h-[450px] mb-10 items-center">
       <img
         src={img}
         alt="photo"
         className="h-1/2 rounded-tl-3xl rounded-tr-3xl"
       />
-      <h2 className="text-center my-10 font-unbounded text-[#04a2ba] text-3xl font-semibold">
+      <h2 className="text-center my-10 font-unbounded text-[#04a2ba] text-3xl font-semibold text-wrap">
         {name}
       </h2>
       <div className="text-center">
@@ -42,21 +42,21 @@ const Proccess = ({ icon, title, desc }) => {
 const Serviceses = () => {
   const {t, i18n} = useTranslation();
   return (
-    <div className="mt-32 items-center" id="serviceses">
-      <h1 className="animate__animated animate__flipInX mb-7">
+    <div className="mt-32 items-center px-10" id="serviceses">
+      <h1 data-aos="fade-right" className="mb-7">
         {t("xizmat")}
       </h1>
-      <div className="grid grid-cols-3">
+      <div data-aos="fade-up" className="grid grid-cols-1 md:grid md:grid-cols-3">
         <Service img={"plisos.png"} name={t("faqatGilam")} />
         <Service img={"dazmol.png"} name={t("barchaMebel")} />
         <Service img={"parda.png"} name={t("barchaParda")} />
         <Service img={"gilam.png"} name={t("barchaGilam")} />
         <Service img={"sochiq.png"} name={t("barchaAdyol")} />
       </div>
-      <h1 className="animate__animated animate__flipInX mb-7 text-center text-[45px] font-bold text-[#000929b3]">
+      <h1 data-aos="fade-down-right" className="mb-7 text-center text-[45px] font-bold text-[#000929b3] text-wrap">
         {t("erishayotganNatija")}
       </h1>
-      <div className="flex justify-center">
+      <div data-aos="fade-up-right" className="flex justify-center">
         <img
           src="/natija.jpg"
           alt="natija"
@@ -68,10 +68,10 @@ const Serviceses = () => {
           className="w-1/3 object-cover inline"
         />
       </div>
-      <h1 className="animate__animated animate__flipInX mt-32 mb-4 text-center text-[45px] font-bold text-[#000929b3]">
+      <h1 data-aos="flip-right" className="mt-32 mb-4 text-center text-[45px] font-bold text-[#000929b3]">
         {t("ishLavha")}
       </h1>
-      <div className=" flex gap-5 w-full overflow-hidden overflow-x-scroll">
+      <div className="flex flex-col md:flex md:flex-row gap-5 w-full overflow-hidden overflow-x-scroll">
         <video controls loop muted width={300}>
           <source src="/video1.mp4" />
         </video>
@@ -91,10 +91,10 @@ const Serviceses = () => {
           <source src="/video6.mp4" />
         </video>
       </div>
-      <h1 className="animate__animated animate__flipInX mb-10 mt-32 text-[45px] font-bold text-[#193365] font-ibm">
+      <h1 data-aos="fade-right" className="mb-10 mt-32 text-[45px] font-bold text-[#193365] font-ibm">
         {t("qandayIshlaydi")}
       </h1>
-      <div className="grid grid-cols-4">
+      <div data-aos="fade-up" className="grid grid-cols-1 gap-10 md:grid md:grid-cols-4">
         <Proccess
           icon={call}
           title={t("call")}
@@ -143,43 +143,44 @@ const Serviceses = () => {
           </p>
         </div>
       </div>
-      <h1 className="animate__animated animate__flipInX mb-10 mt-32 text-[45px] font-bold text-black font-ibm">
+      <h1 data-aos="fade-right" className="mb-10 mt-32 text-[45px] font-bold text-black font-ibm">
         {t("ishJarayoni")}
       </h1>
-      <div className="grid grid-cols-4 gap-2">
-        <div className="overflow-hidden row-span-2 col-span-2 w-[740px] h-[710px] relative">
+      <div data-aos="zoom-in" className="grid grid-cols-1 md:grid md:grid-cols-4 gap-2">
+        <div className="md:overflow-hidden md:row-span-2 md:col-span-2 md:w-[720px] md:h-[710px] rounded-xl">
           <img
             src="/galareya1.jpg"
             alt="galareya"
-            className="rounded-xl transition duration-150 ease-linear hover:scale-110"
+            className="w-full rounded-xl md:w-full md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
+          <div className="hidden group-hover:flex items-center justify-center z-20"><Button /></div>
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya2.jpg"
             alt="galareya"
-            className="w-[370px] h-[350px] rounded-xl transition duration-150 ease-linear hover:scale-110"
+            className="w-full md:w-[370px] md:h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya3.jpg"
             alt="galareya"
-            className="w-[370px] h-[350px] rounded-xl transition duration-150 ease-linear hover:scale-110"
+            className="w-full md:w-[370px] md:h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya5.jpg"
             alt="galareya"
-            className="w-[370px] h-[350px] rounded-xl transition duration-150 ease-linear hover:scale-110"
+            className="w-full md:w-[370px] h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya6.jpg"
             alt="galareya"
-            className="w-[370px] h-[350px] rounded-xl transition duration-150 ease-linear hover:scale-110"
+            className="w-full md:w-[370px] h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
       </div>
