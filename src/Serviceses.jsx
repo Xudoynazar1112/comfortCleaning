@@ -151,7 +151,7 @@ const Serviceses = () => {
           <img
             src="/galareya1.jpg"
             alt="galareya"
-            className="w-full rounded-xl md:w-full md:transition md:duration-150 md:ease-linear md:hover:scale-110"
+            className="w-[450px] rounded-xl md:w-full md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
           <div className="hidden group-hover:flex items-center justify-center z-20"><Button /></div>
         </div>
@@ -159,28 +159,28 @@ const Serviceses = () => {
           <img
             src="/galareya2.jpg"
             alt="galareya"
-            className="w-full md:w-[370px] md:h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
+            className="w-[450px] md:w-[370px] md:h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya3.jpg"
             alt="galareya"
-            className="w-full md:w-[370px] md:h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
+            className="w-[450px] md:w-[370px] md:h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya5.jpg"
             alt="galareya"
-            className="w-full md:w-[370px] h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
+            className="w-[450px] md:w-[370px] h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
         <div className="overflow-hidden">
           <img
             src="/galareya6.jpg"
             alt="galareya"
-            className="w-full md:w-[370px] h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
+            className="w-[450px] md:w-[370px] h-[350px] rounded-xl md:transition md:duration-150 md:ease-linear md:hover:scale-110"
           />
         </div>
       </div>

@@ -32,7 +32,7 @@ const Questions = () => {
     <>
       <div data-aos="zoom-in-up" id="questions" className="flex flex-col md:flex md:flex-row md:justify-evenly py-10 px-6">
         <p className="text-3xl font-bold text-gray-800 mb-6">FAQs</p>
-        <div className="w-full max-w-2xl">
+        <div className="w-[450px] max-w-2xl">
           <details className="mb-4 p-4 border border-gray-300 rounded-lg bg-white shadow-sm">
             <summary className="text-xl font-semibold text-gray-700 cursor-pointer">
               {t("question1.question")}
@@ -71,7 +71,7 @@ const Questions = () => {
           </details>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-48 bg-gradient-to-b from-[#d9f7fc] to-[#04A2BA] w-full h-[500px] rounded-xl">
+      <div className="flex justify-center items-center mr-6 gap-48 bg-gradient-to-b from-[#d9f7fc] to-[#04A2BA] w-full h-[500px] rounded-xl">
         <div
           id="contact"
           className="bg-white w-[440px] h-[340px] md:w-[500px] md:h-[400px] md:my-24 p-10 rounded-xl"
