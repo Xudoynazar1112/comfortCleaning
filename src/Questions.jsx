@@ -2,6 +2,9 @@ import axios from "axios";
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 
+import { toast } from "react-toastify";
+import validator from "validator";
+
 const Questions = () => {
   const { t, i18n } = useTranslation();
   const SendMessage = (event) => {
@@ -9,9 +12,22 @@ const Questions = () => {
     const token = "1361985908:AAHThjmeSwnG-9iBNmVqjBpv4X2B2bwh66M";
     const chat_id = 843414567;
     const url = `https://api.telegram.org/bot${token}/sendMessage`;
+
     const name = document.getElementById("name").value;
     const phone = document.getElementById("phone").value;
+
+    // Phone validation regex
+    // const phoneRegex =
+    //   /^(?:\+?\d{1,3})?[-.\s]?\(?\d{1,4}\)?[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/;
+
+    // // Validate phone number
+    // if (!phoneRegex.test(phone)) {
+    //   console.log("Please enter a valid phone number.");
+    //   return; // Stop the form submission if phone number is invalid
+    // }
+
     const message = `${name}dan buyurtma tushdi. \nRaqami: ${phone}`;
+
     axios({
       url: url,
       method: "POST",
@@ -22,15 +38,20 @@ const Questions = () => {
     })
       .then((res) => {
         document.getElementById("forma").reset();
-        alert("Xabar muvaffaqiyatli yuborildi!");
+        toast.success("Muvaffaqiyatli jo'natildi!");
       })
       .catch((error) => {
+        toast.error("Xatolik yuz berdi, iltimos qayta urinib ko'ring!");
         console.log("Xatolik yuz berdi: ", error);
       });
   };
   return (
     <>
-      <div data-aos="zoom-in-up" id="questions" className="flex flex-col md:flex md:flex-row md:justify-evenly py-10 px-6">
+      <div
+        data-aos="zoom-in-up"
+        id="questions"
+        className="flex flex-col md:flex md:flex-row md:justify-evenly py-10 px-6"
+      >
         <p className="text-3xl font-bold text-gray-800 mb-6">FAQs</p>
         <div className="w-[450px] max-w-2xl">
           <details className="mb-4 p-4 border border-gray-300 rounded-lg bg-white shadow-sm">

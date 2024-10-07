@@ -6,6 +6,9 @@ import Footer from "./Footer";
 import Questions from "./Questions";
 import Serviceses from "./Serviceses";
 import WhyUs from "./WhyUs";
+
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; // Import CSS
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -19,6 +22,7 @@ function App() {
   }, []);
   return (
     <div className="flex flex-col min-h-screen w-full">
+      <ToastContainer />
       <Navbar />
       <main className="flex-[100%]  flex flex-col mt-32">
         <MainPage />
