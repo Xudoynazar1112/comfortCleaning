@@ -7,7 +7,7 @@ function MainPage() {
     <div id="main" className="md:grid md:grid-cols-2 mt-8">
       <div id="main-right" data-aos="fade-up" className="flex flex-col justify-between mt-24">
         <div className="flex flex-col justify-center p-10">
-          <h1 className="text-black text-[100px] text-wrap md:text-[#04A2BA] md:font-medium font-unbounded md:text-[70px]">
+          <h1 className="text-black text-[80px] text-wrap md:text-[#04A2BA] md:font-medium font-unbounded md:text-[70px]">
             {t("AppjsxH1")}
           </h1>
           <div className='flex relative'>

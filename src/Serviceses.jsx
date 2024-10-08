@@ -15,11 +15,11 @@ import {
 
 const Service = ({ img, name }) => {
   return (
-    <div className="bg-gray-100 rounded-xl w-[350px] h-[410px] md:w-[430px] md:h-[450px] mb-10 items-center">
+    <div className="bg-gray-100 rounded-xl w-full h-[430px] md:w-[430px] md:h-[450px] mb-10 items-center">
       <img
         src={img}
         alt="photo"
-        className="h-1/2 rounded-tl-3xl rounded-tr-3xl"
+        className="h-1/2 w-full rounded-tl-3xl rounded-tr-3xl"
       />
       <h2 className="text-center my-10 font-unbounded text-[#04a2ba] text-3xl font-semibold text-wrap">
         {name}
@@ -35,10 +35,10 @@ const Proccess = ({ icon, title, desc }) => {
   return (
     <div className="w-[300px]">
       <img src={icon} alt="icon" className="inline mr-5" />
-      <h2 className="inline font-ibm text-[#193365] font-semibold text-3xl">
+      <h2 className="inline font-ibm text-[#193365] font-semibold text-[50px] md:text-3xl">
         {title}
       </h2>
-      <p className="w-5/6 text-[#9e9e9e] text-xl pt-3">{desc}</p>
+      <p className="w-full text-[#9e9e9e] text-2xl md:text-xl pt-3">{desc}</p>
     </div>
   );
 };
@@ -67,16 +67,6 @@ const Serviceses = () => {
         {t("erishayotganNatija")}
       </h1>
       <div data-aos="fade-up-right" className="md:flex md:justify-center">
-        {/* <img
-          src="/natija.jpg"
-          alt="natija"
-          className="w-full md:w-1/3 md:object-cover md:inline"
-        />
-        <img
-          src="/natija2.jpg"
-          alt="natija"
-          className="hidden md:w-1/3 md:object-cover md:inline"
-        /> */}
         <ReactCompareSlider
           itemOne={
             <ReactCompareSliderImage src="/natija.jpg" alt="Image one" className="w-full md:w-1/3 md:object-cover md:inline" />
@@ -93,22 +83,22 @@ const Serviceses = () => {
         {t("ishLavha")}
       </h1>
       <div className="flex flex-col md:flex md:flex-row gap-5 w-full overflow-hidden overflow-x-scroll">
-        <video controls loop muted width={300}>
+        <video controls loop muted width={300} className="w-full">
           <source src="/video1.mp4" />
         </video>
-        <video controls loop muted width={300}>
+        <video controls loop muted width={300} className="w-full">
           <source src="/video2.mp4" />
         </video>
-        <video controls loop muted width={300}>
+        <video controls loop muted width={300} className="w-full">
           <source src="/video3.mp4" />
         </video>
-        <video controls loop muted width={300}>
+        <video controls loop muted width={300} className="w-full">
           <source src="/video4.mp4" />
         </video>
-        <video controls loop muted width={300}>
+        <video controls loop muted width={300} className="w-full">
           <source src="/video5.mp4" />
         </video>
-        <video controls loop muted width={300}>
+        <video controls loop muted width={300} className="w-full">
           <source src="/video6.mp4" />
         </video>
       </div>

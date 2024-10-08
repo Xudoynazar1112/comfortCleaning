@@ -7,9 +7,9 @@ import { useTranslation } from "react-i18next";
 
 const Superiority = ({ icon, title, description }) => {
   return (
-    <div className="w-96 animate__animated animate__bounceInLeft">
+    <div className="w-full md:w-96">
       <img src={icon} alt="title" />
-      <h3 className="font-unbounded text-black text-[24px] mb-5">{title}</h3>
+      <h3 className="font-unbounded text-black text-4xl md:text-[24px] mb-5">{title}</h3>
       <p className="w-3/4">{description}</p>
     </div>
   );
@@ -50,12 +50,12 @@ const WhyUs = () => {
         <h2 data-aos="fade-right" className="p-5 text-4xl md:absolute text-white md:text-[40px] md:w-1/2 md:top-12 md:left-12 font-unbounded font-bold">
           {t("chegirmaTitle")}
         </h2>
-        <p data-aos="fade-left" className="px-5 md:absolute md:left-12 md:top-60 text-white md:w-1/4">
+        <p data-aos="fade-left" className="px-5 md:absolute md:left-12 md:top-52 text-white md:w-1/4">
         {t("chegirmaBody")}
         </p>
         <a data-aos="fade-right" href="tel:+998950003080" className="p-5 text-4xl inline-block md:absolute text-white md:text-[40px] md:w-1/2 md:bottom-[40%] md:left-12 font-unbounded font-bold">998-95-000-30-80</a>
-        <a data-aos="fade-right" href="tel:+998990603080" className="p-5 text-4xl inline-block md:absolute text-white md:text-[40px] md:w-1/2 md:bottom-[33%] md:left-12 font-unbounded font-bold">998-99-060-30-80</a>
-        <div data-aos="fade-up" className="p-5 mt-10 md:absolute md:left-12 md:bottom-28"><Button /></div>
+        <a data-aos="fade-right" href="tel:+998990603080" className="p-5 text-4xl inline-block md:absolute text-white md:text-[40px] md:w-1/2 md:bottom-[30%] md:left-12 font-unbounded font-bold">998-99-060-30-80</a>
+        <div data-aos="fade-up" className="p-5 mt-10 md:absolute md:left-12 md:bottom-20"><Button /></div>
       </div>
     </div>
   );
