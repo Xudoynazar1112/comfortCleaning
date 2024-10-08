@@ -87,17 +87,17 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <ul className="flex flex-col basis-full items-center gap-10 fixed right-0 pt-[20%] w-80 h-full bg-white z-20 md:hidden">
-          <li>
+          <li onClick={toggleNavbar}>
             <a href="#main" className="text-3xl text-[#00000098] font-normal">
               {t("asosiy")}
             </a>
           </li>
-          <li>
+          <li onClick={toggleNavbar}>
             <a href="#us" className="text-3xl text-[#00000098] font-normal">
               {t("biz")}
             </a>
           </li>
-          <li>
+          <li onClick={toggleNavbar}>
             <a
               href="#serviceses"
               className="text-4xl text-[#00000098] font-normal"
@@ -105,7 +105,7 @@ const Navbar = () => {
               {t("xizmatlar")}
             </a>
           </li>
-          <li>
+          <li onClick={toggleNavbar}>
             <a
               href="#feedback"
               className="text-4xl text-[#00000098] font-normal"
@@ -113,7 +113,7 @@ const Navbar = () => {
               {t("fikrlar")}
             </a>
           </li>
-          <li>
+          <li onClick={toggleNavbar}>
             <a
               href="#questions"
               className="text-4xl text-[#00000098] font-normal"
@@ -131,7 +131,7 @@ const Navbar = () => {
               <option value="ru">{t("ruscha")}</option>
             </select>
           </li>
-          <li>
+          <li onClick={toggleNavbar}>
             <Button />
           </li>
         </ul>
