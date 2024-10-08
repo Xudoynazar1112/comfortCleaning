@@ -82,23 +82,23 @@ const Serviceses = () => {
       >
         {t("ishLavha")}
       </h1>
-      <div className="flex flex-col md:flex md:flex-row gap-5 w-full overflow-hidden overflow-x-scroll">
-        <video controls loop muted width={300} className="w-full">
+      <div className="flex flex-col md:flex md:flex-row gap-3 w-full overflow-hidden overflow-x-scroll">
+        <video autoPlay loop muted width={300} className="w-full md:w-[340px]">
           <source src="/video1.mp4" />
         </video>
-        <video controls loop muted width={300} className="w-full">
+        <video autoPlay loop muted width={300} className="w-full md:w-[340px]">
           <source src="/video2.mp4" />
         </video>
-        <video controls loop muted width={300} className="w-full">
+        <video autoPlay loop muted width={300} className="w-full md:w-[340px]">
           <source src="/video3.mp4" />
         </video>
-        <video controls loop muted width={300} className="w-full">
+        <video autoPlay loop muted width={300} className="w-full md:w-[340px]">
           <source src="/video4.mp4" />
         </video>
-        <video controls loop muted width={300} className="w-full">
+        <video autoPlay loop muted width={300} className="w-full md:w-[340px]">
           <source src="/video5.mp4" />
         </video>
-        <video controls loop muted width={300} className="w-full">
+        <video autoPlay loop muted width={300} className="w-full md:w-[340px]">
           <source src="/video6.mp4" />
         </video>
       </div>
