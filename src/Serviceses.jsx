@@ -33,7 +33,7 @@ const Service = ({ img, name }) => {
 
 const Proccess = ({ icon, title, desc }) => {
   return (
-    <div className="w-[300px]">
+    <div className="w-full md:w-[300px]">
       <img src={icon} alt="icon" className="inline mr-5" />
       <h2 className="inline font-ibm text-[#193365] font-semibold text-[50px] md:text-3xl">
         {title}
